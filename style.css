@@ -1,0 +1,79 @@
+.amazon-link-button{
+  color: rgb(0, 113, 133);
+  font-size: 23px;
+  font-weight: bold;
+}
+.google-link-button{
+ color: rgb(0, 0, 199); 
+ font-size: 23px;
+ font-weight: bold;
+}
+.github-link-button{
+  color:rgb(201, 2, 2);
+  font-size:23px;
+  font-weight:bold;
+}
+.product-title{
+  font-size: 28px;
+  font-weight:bold;
+  color: black;
+}
+.price{
+  color: rgb(0, 118, 0);
+  font-weight: bold;
+}
+.free-delivery-tomorrow{
+  font-size: 28px;
+  color: rgb(173, 25, 25);
+  font-weight:bold;
+}
+.add-to-chart, .buy-now{
+  border: none;
+  border-radius: 25px; 
+  padding:10px 20px;
+  border: none;
+  cursor: pointer;
+}
+.add-to-chart{
+  background-color: rgb(255, 216, 20);
+}
+.buy-now{
+  background-color: rgb(255, 164, 28);
+}
+.btn-ulportal{
+  background-color:black;
+  color: white;
+  border-radius:28px;
+  border:none;
+  height: 30px;
+  width: 120px;
+  font-size:15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.btn-whatsapp{
+  background-color: black;
+  border-radius:28px;
+  color: white;
+  border: none;
+  height:30px;
+  width: 120px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.btn-instagram{
+  background-color: black;
+  border-radius:28px;
+  color: white;
+  border: none;
+  height:30px;
+  width: 120px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.profile-pic{
+  width: 200px;
+  border: radius 50px;
+}
