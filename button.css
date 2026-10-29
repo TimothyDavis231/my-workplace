@@ -1,0 +1,167 @@
+.RequestNow-button{
+  background-color: black;
+color: white;
+border:none;
+border-color:black;
+border-style: solid;
+border-width:1px;
+padding-top: 9px;
+padding-bottom: 9px;
+padding-left:  25px;
+padding-right:25px ;
+font-size: 11px; 
+font-weight: 2px;
+cursor: pointer;
+margin-right:3px;
+transition: opacity 1s;
+}
+.RequestNow-button:hover{ 
+  opacity: 0.6;
+  color:white;
+}
+.RequestNow-button:active{
+opacity: 0.5;
+}
+
+.Addtocart-button{
+background-color:rgb(255, 216, 20);
+color: black;
+padding-top: 9px;
+padding-bottom: 9px;
+padding-left: 30px;
+padding-right: 30px;
+border: none;
+border-radius:61px;
+font-size:13px;
+font-weight:1px;
+cursor: pointer;
+margin-right:3px;
+transition: opacity 0.15s;
+}
+.Addtocart-button:hover{
+  opacity:0.6;
+  color: white;
+}
+  .Addtocart-button:active{  
+opacity: 0.9;
+  }
+     
+  
+
+
+.Signup-button{
+background-color: rgb(46, 164, 74);
+color: white;
+border:none;
+padding-top: 9px;
+padding-bottom: 9px;
+padding-left: 16px;
+padding-right: 16px;
+border-radius:5px;
+border-width:1px;
+font-size:13px;
+font-weight:16;
+cursor: pointer;
+transition: background-color 0.15s ;
+
+}
+.Signup-button:hover{
+  opacity: 0.7; 
+}
+.Signup-button:active{
+  opacity: 0.9;
+
+}
+
+.Getstarted-button{
+ background-color:rgb(122, 1, 122);
+ color: white;
+ border: none;
+ border-radius:4px;
+ padding-top: 8.5px;
+ padding-bottom: 8.5px;
+ padding-left: 14px;
+ padding-right: 14px;  
+font-size:11px;   
+font-weight:15px;
+margin-right:3px;
+cursor: pointer;
+box-shadow: 0.15s;
+vertical-align: top;
+transition: backgroung-color 0.15s ; 
+} 
+.Getstarted-button:hover{
+  opacity: 0.9;
+}
+.Getstarted-button{
+  box-shadow:5px 5px 10px rgba(0, 0, 0, 15);
+}
+.Addtocart-button:active{
+opacity:0.6;
+}
+
+
+
+
+.Download-button{
+ background-color:white; 
+ border-color: rgb(77, 77, 77);
+ color:black;
+ border:1px solid rgb(112, 115, 117);
+ border-radius:4px;
+ font-size:13px;
+ font-weight:20px ;
+ padding-top: 6px;
+ padding-bottom: 6px;
+ padding-left: 20px;
+ padding-right: 20px;
+ vertical-align: top;
+ margin-right: 3px;
+ vertical-align: top;
+ cursor: pointer;
+ transition: background-color 1s;
+ box-shadow: 0.15s;
+}
+.Download-button:hover{
+  background-color: rgb(77, 77, 77) ;
+  color:black ;
+  opacity: 0.9;
+}
+.Download-button:active{
+  transition: color black;
+  opacity: 0.15;
+}
+
+.Download-button{
+box-shadow: 5px, 5px, 10px  rgba(0, 0, 0, 15);
+}
+
+
+.companywebsite-button{
+  background-color: rgb(5, 36, 173);
+  color: white;
+  border-style: bold;
+  border-color: black;
+  border-width: 2px;
+  border:none;
+  border-radius:15px;
+  font-size: 11px;
+  font-weight: 2px;
+  font-style:bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  cursor: pointer;
+  transition: color 0.9s;
+  vertical-align: top;
+  transition: background-color 0.7s;
+}
+.companywebsite-button:hover{
+  opacity: 8s;
+  color: white;
+  background-color:rgb(65, 65, 238);
+}
+.companywebsite-button:active{
+  opacity: 0.15s;
+}
