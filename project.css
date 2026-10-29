@@ -1,0 +1,215 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-shadow: border-box;
+  font-family: 'poppin', Arial, sans-serif;
+}
+
+body{
+  color: gray;
+  background-color: black;
+}
+
+a{
+  text-decoration:none ;
+  color: #007bff;
+}
+
+a:hover{
+  color: #0056b3;
+}
+
+.img{
+  max-width: 100%;
+  height: auto;
+}
+
+*Header .Nav .header
+header{
+background-color: gray;
+  color: black;
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index:10;
+}
+  
+
+header nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0.1rem;
+}
+
+header .logo{
+  background-color: black;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+header ul{
+  list-style:none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+header a{
+  color: #fff;
+  font-weight: 500;
+}
+
+header a:hover{
+  background-color: #fff;
+  color:black
+}
+
+/*Hero Section*/
+#home{
+  background: linear-gradient(0,0,0,0,5),rgba(0,0,0,0,5), url('htpps: //via .placholder .com/ 1920x1080')
+  center/cover;
+  color: #fff;
+  text-align: center;
+  padding: 6rem 1rem;
+}
+
+#home h1{
+font-size: 3rem;
+margin: 0.5rem;
+}
+
+#home h1{
+  font-size: 3rem;
+  margin:0.5rem;
+}
+
+#home p{
+  max-width: 600px;
+  margin:0 auto 1.5rem;
+}
+
+#home a{
+  background-color:gray;
+  color: #fff;
+  padding: 0.8rem 1.8rem;
+  margin: 0.05rem;
+  border-radius: 5px;
+  display: inline-block;
+}
+ 
+#home a:hover{
+  background-color:rgb(172, 172, 172)
+  color black
+}
+
+/*section*/
+section{
+  padding: 4rem 1rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+section h2{
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  position: relative;
+}
+
+section h2::after{
+  content:"";
+width: 50px;
+height: 3px;
+background-color:white;
+color: black;
+display: block;
+margin: 0.5rem auto 0;
+}
+
+/*About*/
+
+#about img{
+  border-radius: 50%;
+  max-width: 200px;
+  display:block ;
+  margin: 0 auto 1.5rem;
+}
+
+#about p{
+  max-width: 700px;
+  margin: 1rem auto;
+  text-align: center;
+}
+
+/*Skills*/
+#skills ul{
+  list-style: none;
+  text-align: center;
+}
+
+#skilss li{
+  display: inline-block;
+  background: #e2e2e2;
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+/*Project*/
+#project article{
+background:#fff;
+margin: 1.5rem auto;
+padding: 1.5rem;
+border-radius: 6px;
+max-width: 350px;
+box-shadow: 0.2px 5px rgba(0, 0, 0, 1);
+}
+
+#projects img{
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+#projects a{
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-weight: 500;
+}
+
+/*Contact*/
+form{
+  max-width: 500px;
+  margin: auto;
+}
+
+form input, textarea{
+  width: 100%;
+  padding: 0.8rem;
+  margin: 0.5rem 0;
+  border: 1px solid #ccc ;
+  border-radius: 5px;
+}
+
+form button{
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover{
+  background: #0056b3;
+}
+
+/*Footer*/
+footer{
+  background: #1a1a1a;
+  color: #fff;
+  text-align: center;
+  padding: 2rem 1rem;
+  font-size: 0.9rem;
+}
